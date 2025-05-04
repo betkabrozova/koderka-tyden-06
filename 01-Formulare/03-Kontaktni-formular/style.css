@@ -9,3 +9,58 @@ body {
 
 /* ------------------------- */
 
+form{
+	max-width: 400px;
+}
+h1{
+	color: dodgerblue;
+	margin: 10px;
+	font-size: 35px;
+}
+
+.pole, .vyber, .zprava{
+	display: flex;
+	margin: 10px;
+	flex-wrap: wrap;
+}
+button{
+	margin: 10px;
+	padding: 10px;
+	color: white;
+	background-color: dodgerblue;
+	border: 0;
+	border-radius: 5px;
+}
+.souhlas{
+	margin: 10px;
+}
+input{
+	flex: 0 0 100%;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid grey;
+}
+label{
+	flex: 0 0 300px;
+	color: grey;
+}
+.souhlas label{
+	color: black;
+}
+.vyber{
+	display: flex;
+	margin: 10px;
+	flex-wrap: wrap;
+	
+}
+select{
+	flex: 0 0 100%;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid grey;
+}
+textarea{
+	flex: 0 0 100%;
+	border-radius: 5px;
+	border: 1px solid grey;
+}
