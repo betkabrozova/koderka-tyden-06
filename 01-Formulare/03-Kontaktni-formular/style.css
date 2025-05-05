@@ -11,6 +11,7 @@ body {
 
 form{
 	max-width: 400px;
+
 }
 h1{
 	color: dodgerblue;
@@ -30,22 +31,36 @@ button{
 	background-color: dodgerblue;
 	border: 0;
 	border-radius: 5px;
+	font-size: 16px;
+}
+.button{
+	width: 380px;
+	text-align: end;
 }
 .souhlas{
 	margin: 10px;
+	display: flex;
 }
-input{
+.souhlas input{
+	width: 20px;
+}
+.pole input,
+.vyber input,
+.zprava input{
 	flex: 0 0 100%;
 	height: 30px;
 	border-radius: 5px;
 	border: 1px solid grey;
+	padding: 5px;
 }
+
 label{
 	flex: 0 0 300px;
 	color: grey;
 }
 .souhlas label{
 	color: black;
+	padding-left: 20px;
 }
 .vyber{
 	display: flex;
@@ -63,4 +78,18 @@ textarea{
 	flex: 0 0 100%;
 	border-radius: 5px;
 	border: 1px solid grey;
+}
+ input:focus,
+ select:focus,
+ textarea:focus{
+	border: 1px, solid dodgerblue;
+	outline: 0;
+	background-color: rgba(30, 143, 255, 0.121);
+}
+div{
+	padding-top: 10px;
+}
+button:focus, button:hover{
+	background-color: rgb(13, 104, 195);
+	outline: 0;
 }
