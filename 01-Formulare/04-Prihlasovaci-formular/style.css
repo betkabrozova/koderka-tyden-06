@@ -15,3 +15,51 @@ BARVY:
 červená	na hlavičku		#e74c3c
 zelená na tlačítko		#2ecc71
 */
+.form{
+	width: 300px;
+	margin: 50px auto;
+	border-radius: 10px;
+	background-color: white;
+	color: grey;
+}
+p{
+	font-size: 25px;
+	color: white;
+	margin: 0;
+	padding: 0;
+
+}
+.pole_email, .pole_heslo{
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+}
+input{
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px grey solid;
+}
+.hlav{
+	padding: 10px 20px;
+	background-color: red;
+	
+	
+}
+footer{
+	padding: 10px 20px;
+	text-align: center;
+	font-size: 13px;
+}
+.tlacitko{
+	padding: 10px 20px;	
+}
+button{
+	width: 100%;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 0;
+	background-color: rgb(21, 209, 21);
+	color: white;
+}
+
